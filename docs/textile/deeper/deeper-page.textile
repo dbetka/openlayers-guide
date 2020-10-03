@@ -1,7 +1,0 @@
-h1(#deeper-page). Deeper page
-
-h2(#requirements). Requirements
-
-* bash
-* pandoc
-

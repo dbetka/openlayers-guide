@@ -82,5 +82,6 @@ do
 
   # Convert single file and put it into new dir tree
   pandoc -f "$main_type" -t "$new_type" -o "$new_file" "$source_file" ;
+  sed -ri "s|(\".*\":.*)\.$main_extension|\1.$new_extension|g" "$new_file"
   echo "Create    $new_file"
 done
