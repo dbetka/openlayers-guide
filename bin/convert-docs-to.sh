@@ -1,9 +1,47 @@
 #!/bin/bash
 
+#!/bin/bash
+
+# Read parameters
+POSITIONAL=()
+while [[ $# -gt 0 ]]
+do
+key="$1"
+
+case $key in
+    -e|--extension)
+    EXTENSION="$2"
+    shift # past argument
+    shift # past value
+    ;;
+    -t|--type)
+    TYPE="$2"
+    shift # past argument
+    shift # past value
+    ;;
+    #    --default)
+    #    DEFAULT=YES
+    #    shift # past argument
+    #    ;;
+    *)    # unknown option
+    POSITIONAL+=("$1") # save it in an array for later
+    shift # past argument
+    ;;
+esac
+done
+set -- "${POSITIONAL[@]}" # restore positional parameters
+
+#echo "FILE EXTENSION  = ${EXTENSION}"
+#echo "SEARCH PATH     = ${TYPE}"
+#echo "DEFAULT         = ${DEFAULT}"
+#echo "\$1              = $1"
+
+# --------------------------------------------------------
+
 # Configuration
 docs_path="docs"
-new_type=$1
-new_extension=$2
+new_type=$TYPE
+new_extension=$EXTENSION
 main_type='gfm'
 main_extension='md'
 
@@ -25,6 +63,8 @@ do
   if [ ! -d "$new_dir" ]; then
     mkdir "$new_dir"
     echo "Create    $new_dir"
+  else
+    echo "Exist     $new_dir"
   fi
 done
 
