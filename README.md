@@ -1,6 +1,6 @@
 # Openlayers Guid
 
-This repository contain many examples and guids how to use openlayers to use simple features.
+This repository contains many examples and guids how to use **Openlayers v6.4.3** for simple features.
 It has been create because Openlayers documentation is difficult to understand and use.
 
 [Go to Openlayers Guid](./docs/gfm/README.md)
