@@ -7,7 +7,7 @@ For production, we strongly recommend bundling the application together with its
 Put a map on a page
 Below you'll find a complete working example. Create a new file, copy in the contents below, and open in a browser:
 
-[Run code in new tab](../../../examples/begginers/first-run/index.html)
+[Run example in new tab](../../../examples/begginers/first-run/index.html)
 
 ```html
 <!doctype html>

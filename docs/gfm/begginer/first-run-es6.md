@@ -6,7 +6,7 @@ For production, we strongly recommend bundling the application together with its
 
 Put a map on a page
 Below you'll find a complete working example. 
-[Open code in new tab](../../../examples/begginers/first-run-es6/)
+[Open example in new tab](../../../examples/begginers/first-run-es6/)
 or create a new file, copy in the contents below, and open in a browser:
 
 #### index.html
