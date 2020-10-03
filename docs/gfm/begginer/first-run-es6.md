@@ -5,9 +5,9 @@ This primer shows you how to put a simple map on a web page.
 For production, we strongly recommend bundling the application together with its dependencies, as explained in the Building an OpenLayers Application tutorial.
 
 Put a map on a page
-Below you'll find a complete working example. 
+Below you'll find a complete working example. You can create a new file, copy in the contents below, and open in a browser.
+
 [Open example in new tab](../../../examples/begginers/first-run-es6/)
-or create a new file, copy in the contents below, and open in a browser:
 
 #### index.html
 
