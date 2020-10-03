@@ -10,4 +10,5 @@ ___
 #### Convert documentation to other types
 
 This documentation can be convert to many other types of docs and copy to your projects.
-[Read more](./docs-conversion.md) 
+
+[Go to documentation conversion README](./docs-conversion.md) 
