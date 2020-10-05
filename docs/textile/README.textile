@@ -1,7 +1,0 @@
-h1(#content---openlayers-guid). Content &#45; Openlayers Guid
-
-"⇐ Go Back":../../README.textile
-
-# "First run":./begginer/first-run.textile
-# "First run on ES6":./begginer/first-run-es6.textile
-
