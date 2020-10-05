@@ -1,5 +1,5 @@
 .idea
 **/node_modules/
-**/package.json
+examples/**/package.json
 **/.cache
 **/dist
