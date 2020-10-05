@@ -2,4 +2,3 @@
 **/node_modules/
 examples/**/package.json
 **/.cache
-**/dist
