@@ -1,4 +1,4 @@
-# First run / Begginer / Openlayer Guid
+# First run
 
 [⇐ Go Back](../README.md)
 

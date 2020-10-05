@@ -1,4 +1,4 @@
-# First run on ES6 / Begginer / Openlayer Guid
+# First run on ES6
 
 [⇐ Go Back](../README.md)
 
