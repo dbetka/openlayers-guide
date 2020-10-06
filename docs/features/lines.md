@@ -2,8 +2,6 @@
 
 Example how to draw single line by vectors.
 
-[VectorSource](docs/sources/vector.md)
-
 ```js
 import VectorSource from 'ol/source/Vector'
 import LineString from 'ol/Feature'
@@ -28,4 +26,4 @@ source.addFeature(new Feature(polyline))
 ```
 
 #### Related pages:
-* [How to use VectorSource](docs/sources/vector.md)
+* [How to use VectorSource](sources/vector.md)
