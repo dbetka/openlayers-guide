@@ -18,4 +18,4 @@ const vectorLayer = new VectorLayer({
 ```
 
 #### Related pages:
-* [How to use VectorLayer](docs/layers/vector.md)
+* [How to use VectorLayer](layers/vector.md)
