@@ -3,7 +3,8 @@
     * [First run on ES6](beginner/first-run-es6.md)
     
 * Features
-    * [Lines](features/lines.md)
+    * [Line](features/line.md)
+    * [Icon](features/icon.md)
     
 * Sources
     * [Vector](sources/vector.md)
