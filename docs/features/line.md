@@ -21,8 +21,9 @@ const polyline = new ol.geom.LineString(linePath)
 polyline.transform('EPSG:4326', 'EPSG:3857')
 
 source.addFeature(new ol.Feature(polyline))
-// Here should be adding source to map be VectorLayer
-// Explanation how to add VectorSource to map is below in "Related pages"
+const layer = new ol.layer.Vector({ source })
+// Here should be map definition
+map.addLayer(layer) // Explanation how create map is below in "Related pages"
 ```
 
 #### **ES6 modules**
@@ -46,11 +47,14 @@ const polyline = new LineString(linePath)
 polyline.transform('EPSG:4326', 'EPSG:3857')
 
 source.addFeature(new Feature(polyline))
-// Here should be adding source to map by VectorLayer
-// Explanation how to add VectorSource to map is below in "Related pages"
+const layer = new VectorLayer({ source })
+// Here should be map definition
+map.addLayer(layer) // Explanation how create map is below in "Related pages"
 ```
 
 <!-- tabs:end -->
 
 #### Related pages:
+* [How to create map](beginner/first-run.md)
 * [How to use VectorSource](sources/vector.md)
+* [How to use VectorLayer](layers/vector.md)
