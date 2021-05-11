@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - `Related pages` section on `layers/vector` page
+- restrict-zoom-levels-to-integers page
 
 ## [0.2.2] - 2020-10-06
 ### Fixed

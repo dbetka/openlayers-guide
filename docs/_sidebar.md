@@ -12,3 +12,6 @@
 * Layers
     * [Vector](layers/vector.md)
     * [Canvas](layers/canvas.md)
+
+* Map options
+    * [Restrict zoom levels to integers](map-options/restrict-zoom-levels-to-integers.md)
