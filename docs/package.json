@@ -1,6 +1,6 @@
 {
   "name": "openlayers-guide",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "scripts": {
     "serve": "node node_modules/docsify-cli serve"
   },
