@@ -30,4 +30,4 @@ map.addLayer(vectorLayer)
 
 #### Related pages:
 * [How to create map](beginner/first-run-es6.md)
-* [How to create line](features/lines.md) and add this feature to vectorSource
+* [How to create line](features/line.md) and add this feature to vectorSource

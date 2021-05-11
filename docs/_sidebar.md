@@ -11,3 +11,4 @@
     
 * Layers
     * [Vector](layers/vector.md)
+    * [Canvas](layers/canvas.md)
