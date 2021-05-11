@@ -38,5 +38,5 @@ map.addLayer(layer)
 #### Related pages:
 * [How to use VectorSource](sources/vector.md)
 * [How to use VectorLayer](layers/vector.md)
-* ~~How to use Feature~~<!--[](features/feature.md) -->
-* ~~How to use Point~~<!--[](features/point.md) -->
+[comment]: <> (* ~~How to use Feature~~<!--[]&#40;features/feature.md&#41; -->)
+[comment]: <> (* ~~How to use Point~~<!--[]&#40;features/point.md&#41; -->)
