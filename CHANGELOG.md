@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.4.0] - YYYY-MM-DD
 ### Added
 - Feature page
+- Extent of View page
 
 ### Fixed
 
