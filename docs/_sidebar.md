@@ -13,6 +13,7 @@
 * Layers
   * [Vector](layers/vector.md)
   * [Canvas](layers/canvas.md)
+  * [Tile](layers/tile.md)
 
 * Map options
   * [Extent of View](map-options/extent-of-view.md)

@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Extent of View page
 - Information about `zIndex` option for layers
 - Own OSM server page
+- Tile Layer page
 
 ### Fixed
 
