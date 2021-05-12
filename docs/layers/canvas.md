@@ -22,6 +22,8 @@ const canvasLayer = new ol.layer.Image({
   }),
 })
 
+canvasLayer.setZIndex(10)
+
 map.addLayer(canvasLayer) // show
 ```
 
@@ -46,6 +48,8 @@ const canvasLayer = new Image({
     ratio: 1,
   }),
 })
+
+canvasLayer.setZIndex(10)
 
 map.addLayer(canvasLayer) // show
 ```

@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Feature page
 - Extent of View page
+- Information about `zIndex` option for layers
 
 ### Fixed
 

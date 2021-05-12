@@ -24,6 +24,8 @@ const layer = new ol.layer.Vector({
   })
 })
 
+layer.setZIndex(15)
+
 // Here should be map definition
 map.addLayer(layer) // Explanation how create map is below in "Related pages"
 ```
@@ -50,6 +52,8 @@ const layer = new VectorLayer({
     })
   })
 })
+
+layer.setZIndex(15)
 
 // Here should be map definition
 map.addLayer(layer) // Explanation how create map is below in "Related pages"
