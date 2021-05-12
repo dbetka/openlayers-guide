@@ -161,22 +161,6 @@ JavaScript to create a simple map
 <!-- tabs:start -->
 #### **Global OL**
 ```js
-  var map = new Map({
-    target: 'map',
-    layers: [
-      new TileLayer({
-        source: new OSM()
-      })
-    ],
-    view: new View({
-      center: fromLonLat([37.41, 8.82]),
-      zoom: 4
-    })
-  });
-```
-
-#### **ES6 modules**
-```js
   var map = new ol.Map({
     target: 'map',
     layers: [
@@ -186,6 +170,22 @@ JavaScript to create a simple map
     ],
     view: new ol.View({
       center: ol.proj.fromLonLat([37.41, 8.82]),
+      zoom: 4
+    })
+  });
+```
+
+#### **ES6 modules**
+```js
+  var map = new Map({
+    target: 'map',
+    layers: [
+      new TileLayer({
+        source: new OSM()
+      })
+    ],
+    view: new View({
+      center: fromLonLat([37.41, 8.82]),
       zoom: 4
     })
   });
