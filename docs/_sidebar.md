@@ -8,6 +8,7 @@
     
 * Sources
   * [Vector](sources/vector.md)
+  * [Own OSM server](sources/own-osm-server.md)
     
 * Layers
   * [Vector](layers/vector.md)
