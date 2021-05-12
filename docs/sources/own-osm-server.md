@@ -1,6 +1,6 @@
-# VectorSource
+# Own OSM server
 
-Example how to use VectorSource.
+Example how to use own OSM server.
 
 <!-- tabs:start -->
 #### **Global OL**
@@ -35,4 +35,4 @@ map.addLayer(layer) // Explanation how create map is below in "Related pages"
 
 #### Related pages:
 * [How to create map](beginner/first-run.md)
-* [How to use VectorLayer](layers/vector.md)
+* [How to use TileLayer](layers/tile.md)
