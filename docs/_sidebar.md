@@ -1,6 +1,7 @@
 * Beginner
   * [First run](beginner/first-run.md)
   * [Feature](beginner/feature.md)
+  * [Overlay](beginner/overlay.md)
     
 * Features
   * [Line](features/line.md)
