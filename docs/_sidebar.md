@@ -1,6 +1,6 @@
 * Beginner
     * [First run](beginner/first-run.md)
-    * [First run on ES6](beginner/first-run-es6.md)
+    * [Feature](beginner/feature.md)
     
 * Features
     * [Line](features/line.md)
